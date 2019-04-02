@@ -12,17 +12,17 @@ export class AppComponent {
   public appPages = [
     {
       title: 'Profil',
-      url: '/home',
+      url: '/profil',
       icon: 'contact'
     },
     {
       title: 'Pengumuman',
-      url: '/list',
+      url: '/pengumuman',
       icon: 'megaphone'
     },
     {
       title: 'Bantuan',
-      url: '/list',
+      url: '/bantuan',
       icon: 'help-circle'
     }
   ];
