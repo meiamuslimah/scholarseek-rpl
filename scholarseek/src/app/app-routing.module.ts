@@ -14,7 +14,9 @@ const routes: Routes = [
   { path: 'deskripsi', loadChildren: './deskripsi/deskripsi.module#DeskripsiPageModule' },
   { path: 'pengumuman', loadChildren: './pengumuman/pengumuman.module#PengumumanPageModule' },
   { path: 'profil', loadChildren: './profil/profil.module#ProfilPageModule' },
-  { path: 'bantuan', loadChildren: './bantuan/bantuan.module#BantuanPageModule' }
+  { path: 'bantuan', loadChildren: './bantuan/bantuan.module#BantuanPageModule' },
+  { path: 'beranda-admin', loadChildren: './beranda-admin/beranda-admin.module#BerandaAdminPageModule' },
+  { path: 'deskripsi-admin', loadChildren: './deskripsi-admin/deskripsi-admin.module#DeskripsiAdminPageModule' }
 ];
 
 @NgModule({
